@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "small business",
+        "2": "internationalization"
+    },
+    "description": "API to consult the CNPJ (Brazilian company number).\n\nThis uses the free range of their offering, meaning, there are limits on number of calls per minute (3) and per month (130000).\n\nThis plugin simply uses receitaws.com.br's API.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1579427827704x982449139587165300/factory.svg",
+    "license": "open_source",
+    "link": "https://forum.bubble.io/t/consulta-de-cnpj-plugin/76598/",
+    "name": "ReceitaWS (free plan)",
+    "plugin_instructions": "Just give it a CNPJ without any dots or hyphens and it will return all the information it has on it."
+}

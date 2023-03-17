@@ -1,0 +1,46 @@
+{
+    "calls": {
+        "AAC": {
+            "doc_link": "https://receitaws.com.br/api",
+            "initialized": true,
+            "method": "get",
+            "name": "Get CNPJ Details",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1579426636037x605773075952959500.plugin_api.AAC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"Get CNPJ Detail\",\"fields\":{\"_p_atividade_principal\":{\"ret_value\":\"list.api.1579426636037x605773075952959500.plugin_api.AAC.atividade_principal\",\"caption\":\"atividade_principal\",\"path\":[\"atividade_principal\"]},\"_p_data_situacao\":{\"ret_value\":\"text\",\"caption\":\"data_situacao\",\"path\":[\"data_situacao\"]},\"_p_nome\":{\"ret_value\":\"text\",\"caption\":\"nome\",\"path\":[\"nome\"]},\"_p_uf\":{\"ret_value\":\"text\",\"caption\":\"uf\",\"path\":[\"uf\"]},\"_p_telefone\":{\"ret_value\":\"text\",\"caption\":\"telefone\",\"path\":[\"telefone\"]},\"_p_atividades_secundarias\":{\"ret_value\":\"list.api.1579426636037x605773075952959500.plugin_api.AAC.atividades_secundarias\",\"caption\":\"atividades_secundarias\",\"path\":[\"atividades_secundarias\"]},\"_p_qsa\":{\"ret_value\":\"list.api.1579426636037x605773075952959500.plugin_api.AAC.qsa\",\"caption\":\"qsa\",\"path\":[\"qsa\"]},\"_p_situacao\":{\"ret_value\":\"text\",\"caption\":\"situacao\",\"path\":[\"situacao\"]},\"_p_bairro\":{\"ret_value\":\"text\",\"caption\":\"bairro\",\"path\":[\"bairro\"]},\"_p_logradouro\":{\"ret_value\":\"text\",\"caption\":\"logradouro\",\"path\":[\"logradouro\"]},\"_p_numero\":{\"ret_value\":\"text\",\"caption\":\"numero\",\"path\":[\"numero\"]},\"_p_cep\":{\"ret_value\":\"text\",\"caption\":\"cep\",\"path\":[\"cep\"]},\"_p_municipio\":{\"ret_value\":\"text\",\"caption\":\"municipio\",\"path\":[\"municipio\"]},\"_p_porte\":{\"ret_value\":\"text\",\"caption\":\"porte\",\"path\":[\"porte\"]},\"_p_abertura\":{\"ret_value\":\"text\",\"caption\":\"abertura\",\"path\":[\"abertura\"]},\"_p_natureza_juridica\":{\"ret_value\":\"text\",\"caption\":\"natureza_juridica\",\"path\":[\"natureza_juridica\"]},\"_p_fantasia\":{\"ret_value\":\"text\",\"caption\":\"fantasia\",\"path\":[\"fantasia\"]},\"_p_cnpj\":{\"ret_value\":\"text\",\"caption\":\"cnpj\",\"path\":[\"cnpj\"]},\"_p_ultima_atualizacao\":{\"ret_value\":\"text\",\"caption\":\"ultima_atualizacao\",\"path\":[\"ultima_atualizacao\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"path\":[\"status\"]},\"_p_tipo\":{\"ret_value\":\"text\",\"caption\":\"tipo\",\"path\":[\"tipo\"]},\"_p_complemento\":{\"ret_value\":\"text\",\"caption\":\"complemento\",\"path\":[\"complemento\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"path\":[\"email\"]},\"_p_efr\":{\"ret_value\":\"text\",\"caption\":\"efr\",\"path\":[\"efr\"]},\"_p_motivo_situacao\":{\"ret_value\":\"text\",\"caption\":\"motivo_situacao\",\"path\":[\"motivo_situacao\"]},\"_p_situacao_especial\":{\"ret_value\":\"text\",\"caption\":\"situacao_especial\",\"path\":[\"situacao_especial\"]},\"_p_data_situacao_especial\":{\"ret_value\":\"text\",\"caption\":\"data_situacao_especial\",\"path\":[\"data_situacao_especial\"]},\"_p_capital_social\":{\"ret_value\":\"text\",\"caption\":\"capital_social\",\"path\":[\"capital_social\"]},\"_p_billing.free\":{\"ret_value\":\"boolean\",\"caption\":\"billing free\",\"path\":[\"billing\",\"free\"]},\"_p_billing.database\":{\"ret_value\":\"boolean\",\"caption\":\"billing database\",\"path\":[\"billing\",\"database\"]}}},\"plugin_api.AAC.atividade_principal\":{\"caption\":\"Get CNPJ Details atividade_principal\",\"fields\":{\"_p_text\":{\"ret_value\":\"text\",\"caption\":\"text\",\"path\":[\"text\"]},\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"path\":[\"code\"]}}},\"plugin_api.AAC.atividades_secundarias\":{\"caption\":\"Get CNPJ Details atividades_secundaria\",\"fields\":{\"_p_text\":{\"ret_value\":\"text\",\"caption\":\"text\",\"path\":[\"text\"]},\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"path\":[\"code\"]}}},\"plugin_api.AAC.qsa\":{\"caption\":\"Get CNPJ Details qsa\",\"fields\":{\"_p_qual\":{\"ret_value\":\"text\",\"caption\":\"qual\",\"path\":[\"qual\"]},\"_p_nome\":{\"ret_value\":\"text\",\"caption\":\"nome\",\"path\":[\"nome\"]}}}}",
+            "url": "https://www.receitaws.com.br/v1/cnpj/[cnpj]",
+            "url_params": {
+                "AAD": {
+                    "key": "cnpj",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAF": {
+            "0": "A",
+            "1": "A",
+            "2": "E",
+            "doc_link": "https://receitaws.com.br/api",
+            "initialized": true,
+            "method": "get",
+            "name": "Get CNPJ Details",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1579426636037x605773075952959500.plugin_api.AAF",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAF\":{\"caption\":\"Get CNPJ Detail\",\"fields\":{\"_p_atividade_principal\":{\"ret_value\":\"list.api.1579426636037x605773075952959500.plugin_api.AAF.atividade_principal\",\"caption\":\"atividade_principal\",\"path\":[\"atividade_principal\"]},\"_p_data_situacao\":{\"ret_value\":\"text\",\"caption\":\"data_situacao\",\"path\":[\"data_situacao\"]},\"_p_nome\":{\"ret_value\":\"text\",\"caption\":\"nome\",\"path\":[\"nome\"]},\"_p_uf\":{\"ret_value\":\"text\",\"caption\":\"uf\",\"path\":[\"uf\"]},\"_p_telefone\":{\"ret_value\":\"text\",\"caption\":\"telefone\",\"path\":[\"telefone\"]},\"_p_atividades_secundarias\":{\"ret_value\":\"list.api.1579426636037x605773075952959500.plugin_api.AAF.atividades_secundarias\",\"caption\":\"atividades_secundarias\",\"path\":[\"atividades_secundarias\"]},\"_p_qsa\":{\"ret_value\":\"list.api.1579426636037x605773075952959500.plugin_api.AAF.qsa\",\"caption\":\"qsa\",\"path\":[\"qsa\"]},\"_p_situacao\":{\"ret_value\":\"text\",\"caption\":\"situacao\",\"path\":[\"situacao\"]},\"_p_bairro\":{\"ret_value\":\"text\",\"caption\":\"bairro\",\"path\":[\"bairro\"]},\"_p_logradouro\":{\"ret_value\":\"text\",\"caption\":\"logradouro\",\"path\":[\"logradouro\"]},\"_p_numero\":{\"ret_value\":\"text\",\"caption\":\"numero\",\"path\":[\"numero\"]},\"_p_cep\":{\"ret_value\":\"text\",\"caption\":\"cep\",\"path\":[\"cep\"]},\"_p_municipio\":{\"ret_value\":\"text\",\"caption\":\"municipio\",\"path\":[\"municipio\"]},\"_p_porte\":{\"ret_value\":\"text\",\"caption\":\"porte\",\"path\":[\"porte\"]},\"_p_abertura\":{\"ret_value\":\"text\",\"caption\":\"abertura\",\"path\":[\"abertura\"]},\"_p_natureza_juridica\":{\"ret_value\":\"text\",\"caption\":\"natureza_juridica\",\"path\":[\"natureza_juridica\"]},\"_p_fantasia\":{\"ret_value\":\"text\",\"caption\":\"fantasia\",\"path\":[\"fantasia\"]},\"_p_cnpj\":{\"ret_value\":\"text\",\"caption\":\"cnpj\",\"path\":[\"cnpj\"]},\"_p_ultima_atualizacao\":{\"ret_value\":\"text\",\"caption\":\"ultima_atualizacao\",\"path\":[\"ultima_atualizacao\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"path\":[\"status\"]},\"_p_tipo\":{\"ret_value\":\"text\",\"caption\":\"tipo\",\"path\":[\"tipo\"]},\"_p_complemento\":{\"ret_value\":\"text\",\"caption\":\"complemento\",\"path\":[\"complemento\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"path\":[\"email\"]},\"_p_efr\":{\"ret_value\":\"text\",\"caption\":\"efr\",\"path\":[\"efr\"]},\"_p_motivo_situacao\":{\"ret_value\":\"text\",\"caption\":\"motivo_situacao\",\"path\":[\"motivo_situacao\"]},\"_p_situacao_especial\":{\"ret_value\":\"text\",\"caption\":\"situacao_especial\",\"path\":[\"situacao_especial\"]},\"_p_data_situacao_especial\":{\"ret_value\":\"text\",\"caption\":\"data_situacao_especial\",\"path\":[\"data_situacao_especial\"]},\"_p_capital_social\":{\"ret_value\":\"text\",\"caption\":\"capital_social\",\"path\":[\"capital_social\"]},\"_p_billing.free\":{\"ret_value\":\"boolean\",\"caption\":\"billing free\",\"path\":[\"billing\",\"free\"]},\"_p_billing.database\":{\"ret_value\":\"boolean\",\"caption\":\"billing database\",\"path\":[\"billing\",\"database\"]}}},\"plugin_api.AAF.atividade_principal\":{\"caption\":\"Get CNPJ Details atividade_principal\",\"fields\":{\"_p_text\":{\"ret_value\":\"text\",\"caption\":\"text\",\"path\":[\"text\"]},\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"path\":[\"code\"]}}},\"plugin_api.AAF.atividades_secundarias\":{\"caption\":\"Get CNPJ Details atividades_secundaria\",\"fields\":{\"_p_text\":{\"ret_value\":\"text\",\"caption\":\"text\",\"path\":[\"text\"]},\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"path\":[\"code\"]}}},\"plugin_api.AAF.qsa\":{\"caption\":\"Get CNPJ Details qsa\",\"fields\":{\"_p_qual\":{\"ret_value\":\"text\",\"caption\":\"qual\",\"path\":[\"qual\"]},\"_p_nome\":{\"ret_value\":\"text\",\"caption\":\"nome\",\"path\":[\"nome\"]}}}}",
+            "url": "https://www.receitaws.com.br/v1/cnpj/[cnpj]",
+            "url_params": {
+                "AAD": {
+                    "key": "cnpj",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        }
+    },
+    "human": "CNPJ"
+}
